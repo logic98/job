@@ -5,6 +5,8 @@
  *      Author: issuser
  */
 #include "../job.hpp"
+#include <iostream>
+using namespace std;
 
 typedef struct element_t {
 	int value;
