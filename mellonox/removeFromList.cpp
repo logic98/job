@@ -8,6 +8,18 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Implement the function removeItem which removes the item at location i from the list and returns the removed item.
+
+Notes:
+
+- i (the location to remove) is given as an argument to the function
+- No need to check element value
+- You can assume anything you want as long as you describe your assumption
+
+Answer:
+ */
+
 typedef struct element_t {
 	int value;
 	element_t *next;
